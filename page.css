@@ -1,0 +1,85 @@
+#boardspace
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    border-width: 0;
+}
+#board
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}
+#boardimage
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 64vh;
+    height: 64vh;
+}
+.tic
+{
+    position: absolute;
+    left: 0vh;
+    width: 20vh;
+    height: 20vh;
+}
+.tac
+{
+    position: absolute;
+    left: 22vh;
+    width: 20vh;
+    height: 20vh;
+}
+.toe
+{
+    position: absolute;
+    left: 44vh;
+    width: 20vh;
+    height: 20vh;
+}
+#tic1 { top: 0; }
+#tic2 { top: 22vh; }
+#tic3 { top: 44vh; }
+#tac1 { top: 0; }
+#tac2 { top: 22vh; }
+#tac3 { top: 44vh; }
+#toe1 { top: 0; }
+#toe2 { top: 22vh; }
+#toe3 { top: 44vh; }
+
+#header
+{
+    background-color: lightgray;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+}
+#buttonspace
+{
+    position: relative;
+    margin: auto;
+    width: 30%;
+    padding: 5vh;
+}
+#button
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#boardspace
+{
+    margin: auto;
+    width: 50%;
+}

@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en-US">
     <head>
         <title>
             Tic-Tac-Toe
         </title>
+        <link rel="stylesheet" href="page.css"/>
     </head>
 
     <body>
-        <h1>Testing HTML, with JavaScript and CSS.</h1>
-        <p>Have to start somewhere!</p>
-        <p id="test">I guess we'll start here.</p>
-        <button type="button" onclick="func()">What's this do?</button>
+        <header id="header">
+            <h1>Tic-Tac-Toe</h1>
+        </header>
+        <div id="buttonspace">
+            <div id="button">
+                <button type="button" onclick="reset()">Reset the board!</button>
+            </div>
+        </div>
+        
+        <div id="boardspace">
+            <div id="board">
+                <img id="boardimage" src="images/board.png"/>
+                <img onclick="clicked(this)" class="tic" id="tic1" src="images/empty.png"/>
+                <img onclick="clicked(this)" class="tic" id="tic2" src="images/empty.png"/>
+                <img onclick="clicked(this)" class="tic" id="tic3" src="images/empty.png"/>
+                <img onclick="clicked(this)" class="tac" id="tac1" src="images/empty.png"/>
+                <img onclick="clicked(this)" class="tac" id="tac2" src="images/empty.png"/>
+                <img onclick="clicked(this)" class="tac" id="tac3" src="images/empty.png"/>
+                <img onclick="clicked(this)" class="toe" id="toe1" src="images/empty.png"/>
+                <img onclick="clicked(this)" class="toe" id="toe2" src="images/empty.png"/>
+                <img onclick="clicked(this)" class="toe" id="toe3" src="images/empty.png"/>
+            </div>
+        </div>
 
         <script src="main.js"></script>
     </body>
